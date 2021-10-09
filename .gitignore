@@ -138,6 +138,8 @@ dmypy.json
 *.fls
 *.out
 *.tex
+*.nav
+*.snm
 
 # Mac
 .DS_Store
