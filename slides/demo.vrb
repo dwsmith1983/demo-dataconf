@@ -1,0 +1,18 @@
+\frametitle{Python Implementation}
+	\begin{lstlisting}[language = Python , frame = trBL , firstnumber = last , escapeinside={(*@}{@*)}]
+@dataclass
+class InputType:
+	table_name: Text
+	filter: Text
+	
+	
+@dataclass
+class Params:
+	name: Text
+	date: int
+	input_source: InputType
+	output_path: Text
+	
+	
+conf = dataconf.load(my_path, Params)
+	\end{lstlisting}
