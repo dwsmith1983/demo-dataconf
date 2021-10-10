@@ -140,6 +140,7 @@ dmypy.json
 *.tex
 *.nav
 *.snm
+*.vrb
 
 # Mac
 .DS_Store
