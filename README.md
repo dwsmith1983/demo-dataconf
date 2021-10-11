@@ -16,16 +16,3 @@ at two possible options for parsing with `pandas`; however, this could be expand
 and other source types. Moreover, with the dataconf, we can use method calls in the dataclasses to 
 facilate some actions. In this case, I have the method `load_df` which I can call with each implementation
 to return the data from the correct source.
-
-# Improvements 
-There are a few necessary improvements that should be added but the library is still useable. For one,
-`dataconf` cannot parse config files using `-` and needs underscores only. It should be able to handle
-this similar to Scala and json and yaml parsers in Python. Next, when replicating the case class 
-behavior using `dataclasses`, the naming inside each class should be able to handle some identical names.
-See the following issues filed to track the progress or even submit a PR to improve the code. Additionally, 
-if the `__parse` method is really parse from `ConfigTree`. That is, updating method names and usage to mimic a 
-cleaner convention such as `loads` to `from_string`, `load` to `from_file`, and `__parse` to `from_config`
-would be beneficial.
-
-* [Parsing dashes](https://github.com/zifeo/dataconf/issues/20)
-* [Identical names in data classes](https://github.com/zifeo/dataconf/issues/19)
