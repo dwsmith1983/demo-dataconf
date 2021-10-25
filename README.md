@@ -16,3 +16,6 @@ In this case, we just look at two possible options for parsing with `pandas`; ho
 `spark` dataframes and other source types. Moreover, with the dataconf, we can use method calls in the dataclasses to 
 facilate some actions. In this case, I have the method `load_df` which I can call with each implementation
 to return the data from the correct source.
+
+# Blog
+Checkout my blog write up on [Tech True Analytics](https://tech.trueanalytics.ai/posts/dataconf-at-tdg/) on dataconf.
