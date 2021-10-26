@@ -18,4 +18,5 @@ facilate some actions. In this case, I have the method `load_df` which I can cal
 to return the data from the correct source.
 
 # Blog
-Checkout my blog write up on [Tech True Analytics](https://tech.trueanalytics.ai/posts/dataconf-at-tdg/) on dataconf.
+Checkout my blog write up on [Tech True Analytics](https://tech.trueanalytics.ai/posts/dataconf-at-tdg/) on dataconf of on 
+[Towards Data Science](https://towardsdatascience.com/configuration-files-in-python-using-dataclasses-ec8528e72e01).
