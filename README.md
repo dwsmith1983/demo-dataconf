@@ -6,7 +6,7 @@ safety. However, our friends writing in Scala have been able to use libraries li
 `hocon` to easily parse their config files into case classes.
 
 # Demo
-In this demo, we have two notebooks available and it requires atleast `v0.2.1` of `dataconf`. The first notebook 
+In this demo, we have two notebooks available and it requires atleast `v1.0.2` of `dataconf`. The first notebook 
 `demo_dataconf` shows the parsing of a `json`, `yaml`, and `hocon` using their respective libraries and 
 [dataconf](https://github.com/zifeo/dataconf) with `hocon`. With both `json` and `yaml`, we get a dictionary 
 returned whereas with `dataconf` we have type safety and a  nice dataclass object to work. In the second notebook, 
