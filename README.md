@@ -6,7 +6,7 @@ safety. However, our friends writing in Scala have been able to use libraries li
 `hocon` to easily parse their config files into case classes.
 
 # Demo
-In this demo, we have two notebooks available and it requires `v0.2.1` of `dataconf`. The first notebook 
+In this demo, we have two notebooks available and it requires atleast `v0.2.1` of `dataconf`. The first notebook 
 `demo_dataconf` shows the parsing of a `json`, `yaml`, and `hocon` using their respective libraries and 
 [dataconf](https://github.com/zifeo/dataconf) with `hocon`. With both `json` and `yaml`, we get a dictionary 
 returned whereas with `dataconf` we have type safety and a  nice dataclass object to work. In the second notebook, 
@@ -16,3 +16,7 @@ In this case, we just look at two possible options for parsing with `pandas`; ho
 `spark` dataframes and other source types. Moreover, with the dataconf, we can use method calls in the dataclasses to 
 facilate some actions. In this case, I have the method `load_df` which I can call with each implementation
 to return the data from the correct source.
+
+# Blog
+Checkout my blog write up on [Tech True Analytics](https://tech.trueanalytics.ai/posts/dataconf-at-tdg/) on dataconf of on 
+[Towards Data Science](https://towardsdatascience.com/configuration-files-in-python-using-dataclasses-ec8528e72e01).
